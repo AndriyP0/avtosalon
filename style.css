@@ -1,0 +1,121 @@
+/* === Глобальні стилі === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* === Хедер === */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 15px 40px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  background-color: #ffb400;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #ffc933;
+}
+
+.shop-logo img {
+  height: 50px;
+}
+
+/* === Основна частина === */
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin: 30px 0;
+}
+
+.section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.section .car-logo {
+  display: block;
+  margin: 0 auto 15px;
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  color: #444;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.article {
+  margin-top: 20px;
+}
+
+.article h3 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.article p {
+  text-align: justify;
+}
+
+/* === Футер === */
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  margin-top: 40px;
+}
+
+.footer address, 
+.footer p, 
+.footer a {
+  color: #ccc;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #ffb400;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
