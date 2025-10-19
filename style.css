@@ -118,4 +118,27 @@ body {
 
 .footer a:hover {
   text-decoration: underline;
+} 
+table,
+thead,
+tbody,
+td,
+th{
+  border: 2px solid teal;
+  border-collapse: separate;
+  text-align: center;
 }
+table{
+  margin: 0 auto;
+  width: 900px; 
+}
+/* #money{
+  display: flex;
+  justify-content:space-between;
+  width: 800px;
+  margin-left:40px;
+}
+input[type="range"]{
+width: 800px;
+} */
+
