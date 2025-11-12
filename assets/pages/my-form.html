@@ -4,63 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="./form-style.css">
 </head>
 <body>
-    <a href="/index.html">Home</a>
+    <a href="../../index.html">Home</a>
     <form> 
-        <Fieldset>
+        <fieldset>
             <legend>Persomal info</legend>
              <div class="form-element">
-            <label for="firstName">First Name</label> 
-            <input placeholder="First Name" id="firstName" type="text">
+            <label for="first-name">First Name</label> 
+            <input placeholder="First Name" id="first-name" type="text">
         </div>
         
         <div class="form-element">
-            <label for="lastName">Last Name</label> 
-            <input placeholder="Last Name" id="lastName" type="text">
+            <label for="last-name">Last Name</label> 
+            <input placeholder="Last Name" id="last-name" type="text">
         </div>
         <div class="form-element">
-            <label for="Birthday">Birthday</label>
-            <input id="Birthday" type="date">
+            <label for="birthday">Birthday</label>
+            <input id="birthday" type="date">
         </div>
          <div class="form-element">
             <h4>Gender</h4>
-            <label for="Gender">Male</label>
-            <input id="Gender" type="radio" name="Gender">
-            <label for="Gender">Female</label>
-            <input id="Gender" type="radio" name="Gender">
+            <label for="gender-male">Male</label>
+            <input id="gender-male" type="radio" name="Gender">
+            <label for="gender-femaly">Female</label>
+            <input id="gender-femaly" type="radio" name="Gender">
         </div>
          <div class="form-element">
-            <label for="Drive-experience">Drive experience</label>
-            <select id="Drive-experience" name="expirience">
+            <label for="drive-experience">Drive experience</label>
+            <select id="drive-experience" name="expirience">
                 <option value="---">---</option>
                 <option value="">1</option>
                 <option value="">2</option>
                 <option value="">3</option>
             </select>
         </div>
-        </Fieldset>
+        </fieldset>
         <fieldset>
             <legend>Contacts</legend>
             <div class="form-element">
-            <label for="Email">Email</label>
-            <input placeholder="Email" id="Email" type="email">
+            <label for="email">Email</label>
+            <input placeholder="Email" id="email" type="email">
         </div>
         <div class="form-element">
-            <label for="Phone">Phone</label>
-            <input placeholder="Phone" id="Phone" type="number">
+            <label for="phone">Phone</label>
+            <input placeholder="phone" id="Phone" type="number">
         </div>
         <div class="form-element">
-            <label for="Adress">Adress</label>
-            <textarea  id="Adress" rows="3" cols="40"></textarea>
+            <label for="adress">Adress</label>
+            <textarea  id="adress" rows="3" cols="40"></textarea>
         </div>
         </fieldset>
        <fieldset>
         <legend>Car info</legend>
          <div class="form-element">
-            <label for="Brand">Brand</label>
-            <select id="Brand" name="brandnd">
+            <label for="brand">Brand</label>
+            <select id="brand" name="brandnd">
                 <option value="---">---</option>
                 <option value="">1</option>
                 <option value="">2</option>
@@ -68,8 +67,8 @@
             </select>
         </div>
         <div class="form-element">
-            <label for="Model">Model</label>
-            <select id="Model" name="model" >
+            <label for="model">Model</label>
+            <select id="model" name="model" >
             <option value="---">---</option>
             <option value="">1</option>
             <option value="">2</option>
@@ -77,25 +76,25 @@
             </select>
         </div>
         <div class="form-element">
-            <label for="Used">Used</label>
-            <input id="Used" type="checkbox">
+            <label for="used">Used</label>
+            <input id="used" type="checkbox">
         </div>
         <div class="form-element">
             <h4>Color</h4>
-            <label for="Color">red</label>
-            <input id="Color" type="radio" name="Color">
-            <label for="Color">bue</label>
-            <input id="Color" type="radio" name="Color">
-            <label for="Color">grin</label>
-            <input id="Color" type="radio" name="Color">
-            <label for="Color">black</label>
-            <input id="Color" type="radio" name="Color">
-            <label for="Color">white</label>
-            <input id="Color" type="radio" name="Color">
+            <label for="color-red">red</label>
+            <input id="color-red" type="radio" name="Color">
+            <label for="color-blue">blue</label>
+            <input id="color-blue" type="radio" name="Color">
+            <label for="color-grin">grin</label>
+            <input id="color-grin" type="radio" name="Color">
+            <label for="color-black">black</label>
+            <input id="color-black" type="radio" name="Color">
+            <label for="color-white">white</label>
+            <input id="color-white" type="radio" name="Color">
         </div>
         <div class="form-element">
-            <label for="Price">Price</label>
-            <input id="Price" type="range" min="0" max="50000"
+            <label for="price">Price</label>
+            <input id="price" type="range" min="0" max="50000"
             step="5000"
             list="money">
             <datalist id="money">
